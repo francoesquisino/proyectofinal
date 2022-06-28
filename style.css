@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+
+}
+h1{
+    text-align: center;
+    margin-left: 70px;
+}
+.medio{
+    display: flex;
+    min-height: 400px;
+    background-color: rgba(23, 88, 209, 0.671);
+
+}
+
+li{
+    list-style: none;
+}
+.medio2 {
+    background-color: rgb(78, 139, 231);
+}
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(78, 139, 231);
+    color:black;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: flex-end;
+    max-width: 300px;
+}
+
+.div1 button{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.div5 button{
+    padding: 10px; 
+    font-size: 20px;
+    margin: 10px;   
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+
+.footer{
+    background-color: black;
+    color:white;
+    padding: 15px;
+}
+
+button{
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+
+input{
+    padding: 5px;
+    margin:5px;
+}
+label{
+    font-size: 20px;
+}
+
+.divform{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#submitCreate{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.fila{
+    background-color: aquamarine;
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    background-color: rgb(127, 204, 255);
+    text-align: center;
+}
+.mostrarAdmin{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.producto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+button{
+    font-size: 25px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.producto h3{
+    text-align: center;
+}
+
+.dolar{
+    font-size: 20px;
+    font-weight: 800;
+}
